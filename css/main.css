@@ -34,7 +34,18 @@ body {
 
 section {
   float: left;
-  width: 100%;
+  line-height: 1.6;
+}
+
+#about-page section {
+  width: 70%;
+  float:right;
+}
+
+#about-page .profile-photo {
+  width: 25%;
+  float:left;
+  margin-top: 5px;
 }
 
 
@@ -217,11 +228,13 @@ PAGE: CONTACT
 }
 
 .contact-info li.mail a {
-  background-image: url('../img/mail.png')
+  background-image: url('../img/mail.png');
+  text-decoration: none;
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png')
+  background-image: url('../img/twitter.png');
+  text-decoration: none;
 }
 
 
