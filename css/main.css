@@ -29,6 +29,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 20%;
+  min-width: 547px;
 }
 
 section {

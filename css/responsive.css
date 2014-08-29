@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen {
 
  /* tells browser to target digital screens */
 
@@ -50,7 +50,7 @@
     }
 }
 
-@media screen and (min-width: 660px) {
+@media screen{
 
     /******************
     HEADER
@@ -61,14 +61,11 @@
       float: right;
       font-size: 1.125em;
       text-align: right;
-      margin-right: .5%;
-      width: 45%;
     }
 
     #logo {
       float: left;
       text-align: left;
-      width: 45%;
     }
 
     h1 {
