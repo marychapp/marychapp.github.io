@@ -1,90 +1,209 @@
-@media screen {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 
- /* tells browser to target digital screens */
+  body {
+    padding: 1em;
+  }
 
-    /******************
-    TWO COLUMN LAYOUT
-    *******************/
+  header {
+    max-width: 480px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #primary {
-      width: 50%;
-      float: left;
-    }
+  #logo {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
 
-    #secondary {
-      width: 40%;
-      float: right;
-    }
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /******************
+  header nav a {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
 
-    total width of each element multiplied by 3 (3 elements side by side)
-    margin on each side = 2.5 on all sides
+  .wrapper {
+    max-width:  480px;
+  }
 
-    2.5 + 2.5 = 5%
-    3 * 5 = 15
-    100% - 15% = 85%
-    85% / 3 = 28.333333
-    *******************/
 
-    /******************
-    PAGE: PORTFOLIO
-    *******************/
+  #about-page .profile {
+    justify-content: center;
+    align-items: center;
+    margin-right:0;
+  }
 
-    #gallery li {
-      width: 28.3333%;
-    }
-
-    #gallery li:nth-child(4n) {
-    clear: left;
-    }
-
-    /******************
-    PAGE: ABOUT
-    *******************/
-
-    .profile-photo{
-      float: left;
-      margin: 0 5% 20px 0;
-      max-width: 200px;
-    }
+  #about-page .wrapper {
+    flex-direction: column;
+  }
 }
 
-@media screen{
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+}
 
-    /******************
-    HEADER
-    *******************/
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  body {
+    padding: 1em;
+  }
 
-    nav {
-      background: none;
-      float: right;
-      font-size: 1.125em;
-      text-align: right;
-    }
+  header {
+    max-width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #logo {
-      float: left;
-      text-align: left;
-    }
+  #logo {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
 
-    h1 {
-      font-size: 2.5em;
-    }
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    h2 {
-      font-size: 0.825em;
-      margin-bottom: 20px;
-    }
+  header nav a {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
 
+  .wrapper {
+    max-width:  320px;
+  }
+
+  #about-page .profile {
+    justify-content: center;
+    align-items: center;
+    margin-right:0;
+  }
+
+    #about-page .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
     header {
-      margin-bottom: 60px;
-    }
+    max-width: 1024px;
+  }
 
+  .wrapper {
+    max-width:  1024px;
+  }
+
+  #about-page .wrapper {
+    max-width:  980px;
+  }
+
+    #about-page .wrapper {
+    flex-direction: row;
+  }
 }
 
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+      header {
+    max-width: 1024px;
+  }
 
+  .wrapper {
+    max-width:  1024px;
+  }
 
+    #about-page .wrapper {
+    max-width:  1024px;
+  }
 
+      #about-page .wrapper {
+    flex-direction: row;
+  }
+}
 
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    header {
+    max-width: 1024px;
+  }
 
+  .wrapper {
+    max-width:  1024px;
+  }
+
+    #about-page .wrapper {
+    max-width:  1024px;
+  }
+
+      #about-page .wrapper {
+    flex-direction: row;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  header {
+    max-width: 1224px;
+  }
+
+  .wrapper {
+    max-width:  1224px;
+  }
+
+  #about-page .wrapper {
+    max-width:  1224px;
+  }
+
+      #about-page .wrapper {
+    flex-direction: row;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  header {
+    max-width: 1824px;
+  }
+
+  .wrapper {
+    max-width:  1824px;
+  }
+
+  #about-page .wrapper {
+    max-width:  1224px;
+  }
+  
+  #about-page .wrapper {
+    flex-direction: row;
+  }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
