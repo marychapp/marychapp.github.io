@@ -10,4 +10,6 @@
 	$menu.on("click", function() {
 		$menuItems.slideToggle(150);
 	});
+
+	$("#gallery img").imageloader();
 })();
