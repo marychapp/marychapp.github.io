@@ -11,5 +11,5 @@
 		$menuItems.slideToggle(150);
 	});
 
-	$("#gallery img").imageloader();
+	$("img").Lazy();
 })();
